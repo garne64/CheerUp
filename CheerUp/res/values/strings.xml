@@ -9,5 +9,5 @@
     <string name="dernieres_visites"><u>Dernières visites</u></string>
     <string name="title_activity_accueil">Accueil</string>
     <string name="title_activity_connexion">Connexion</string>
-
+	<string-array name="hospitals"><item>h1</item><item>h2</item></string-array>
 </resources>
