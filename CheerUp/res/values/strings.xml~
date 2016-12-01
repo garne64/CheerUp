@@ -9,6 +9,7 @@
     <string name="dernieres_visites"><u>Dernières visites</u></string>
     <string name="title_activity_accueil">Accueil</string>
     <string name="title_activity_connexion">Connexion</string>
+    
 
 
 </resources>
