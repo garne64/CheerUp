@@ -14,17 +14,13 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+<<<<<<< Upstream, based on origin/master
             android:name=".MenuPrincipalBenevole"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
+=======
             android:name=".Accueil"
             android:label="@string/title_activity_accueil" >
+>>>>>>> 89cf3ce add connexion and accueil
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

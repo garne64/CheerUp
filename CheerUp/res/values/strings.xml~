@@ -4,10 +4,13 @@
     <string name="app_name">CheerUp</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+<<<<<<< Upstream, based on origin/master
     <string name="bonjour">Bonjour ID !</string>
     <string name="decompte_visites"><u>Décompte visites</u></string>
     <string name="dernieres_visites"><u>Dernières visites</u></string>
+=======
     <string name="title_activity_accueil">Accueil</string>
     <string name="title_activity_connexion">Connexion</string>
+>>>>>>> 89cf3ce add connexion and accueil
 
 </resources>
