@@ -9,5 +9,22 @@
     <string name="dernieres_visites"><u>Dernières visites</u></string>
     <string name="title_activity_accueil">Accueil</string>
     <string name="title_activity_connexion">Connexion</string>
-	<string-array name="hospitals"><item>h1</item><item>h2</item></string-array>
+
+    <string-array name="hospitals">
+        <item>h1</item>
+        <item>h2</item>
+    </string-array>
+    
+    <string-array name="antenne">
+        <item>a1</item>
+        <item>a2</item>
+    </string-array>
+    
+    <string-array name="benevole">
+        <item>b1</item>
+        <item>b2</item>
+    </string-array>
+
+    <string name="title_activity_form_cr">FormCR</string>
+
 </resources>
