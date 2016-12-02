@@ -18,7 +18,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Spinner
-        android:id="@+id/spinner01"
+        android:id="@+id/spinner2"
         android:layout_width="wrap_content"
         android:layout_height="50px"
         android:layout_alignLeft="@+id/spinner1"
@@ -111,7 +111,7 @@
         android:layout_width="50px"
         android:layout_height="50px"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/Spinner01"
+        android:layout_alignRight="@+id/editText6"
         android:src="@raw/send" />
 
     <TextView
