@@ -17,40 +17,6 @@
         android:text="Jeune"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_marginRight="14dp"
-        android:layout_toLeftOf="@+id/imageView1"
-        android:text="Les bénévoles" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView2"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="15dp"
-        android:text="Antenne" />
-
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="wrap_content"
-        android:layout_height="50px"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView2" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView3"
-        android:layout_below="@+id/spinner1"
-        android:layout_marginTop="17dp"
-        android:text="Bénévole" />
-
     <Spinner
         android:id="@+id/Spinner01"
         android:layout_width="wrap_content"
@@ -147,5 +113,36 @@
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/Spinner01"
         android:src="@raw/send" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Spinner01"
+        android:layout_toRightOf="@+id/textView6"
+        android:text="Bénévole" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignTop="@+id/spinner1"
+        android:text="Antenne" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="50px"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:text="Les bénévoles" />
 
 </RelativeLayout>
