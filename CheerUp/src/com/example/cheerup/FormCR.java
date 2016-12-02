@@ -44,7 +44,7 @@ public class FormCR extends Activity {
 		// Apply the adapter to the spinner
 		spinner.setAdapter(adapter);
 		
-		spinner = (Spinner) findViewById(R.id.Spinner01);
+		spinner = (Spinner) findViewById(R.id.spinner01);
 		// Create an ArrayAdapter using the string array and a default spinner layout
 		ArrayAdapter<CharSequence> benevole = ArrayAdapter.createFromResource(this,
 		        R.array.benevole, android.R.layout.simple_spinner_item);
