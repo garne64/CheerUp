@@ -2,10 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.cheerup.DisponibilitesBenevoles" >
 
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+    <item android:id="@+id/accueil"
+	    android:title="Accueil" />
+	<item android:id="@+id/disponibilites"
+	    android:title="Disponibilités bénévoles" />
+	<item android:id="@+id/trouverJeune"
+	    android:title="Trouver un jeune" />
+	<item android:id="@+id/posterCR"
+	    android:title="Poster un CR" />
 
 </menu>

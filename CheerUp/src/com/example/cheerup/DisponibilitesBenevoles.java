@@ -1,6 +1,7 @@
 package com.example.cheerup;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,8 +29,31 @@ public class DisponibilitesBenevoles extends Activity {
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
+Intent i = new Intent();
+		
 		if (id == R.id.action_settings) {
 			return true;
+		}
+		else if (id == R.id.accueil) 
+		{
+			i.setClass(this, MenuPrincipalBenevole.class);
+		}
+		else if (id == R.id.disponibilites)
+		{
+			i.setClass(this, DisponibilitesBenevoles.class);
+		}
+		else if (id == R.id.trouverJeune)
+		{
+			i.setClass(this, TrouverUnJeune.class);
+		}
+		else if (id == R.id.posterCR)
+		{
+			i.setClass(this, FormCR.class);
+		}
+		
+		if (i.getClass() != null)
+		{	
+			this.startActivity(i);
 		}
 		return super.onOptionsItemSelected(item);
 	}

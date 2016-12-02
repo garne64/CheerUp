@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.cheerup.FormCR" >
-
+    tools:context="com.example.cheerup.MenuPrincipalBenevole" >
+    
     <item android:id="@+id/accueil"
 	    android:title="Accueil" />
 	<item android:id="@+id/disponibilites"
@@ -10,5 +10,5 @@
 	    android:title="Trouver un jeune" />
 	<item android:id="@+id/posterCR"
 	    android:title="Poster un CR" />
-
+    
 </menu>
